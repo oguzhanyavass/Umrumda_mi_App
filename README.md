@@ -1,84 +1,76 @@
+<<<<<<< HEAD
+# Umrumda mı? React Native App
+=======
 <<< HEAD
 # Umrumda_mi_App
 React Native ve çeşitli teknolojilerle geliştirilen "Umrumda mı?" adlı insanların dertlerini paylaşıp dönüt alacağı bir mobil uygulama.  Developed with React Native and various technologies, “Umrumda mı?” is a mobile application where people can share their problems and get feedback.
 =======
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+>>>>>>> b5df7c9b8b66ca9fda77c76832296c7c016adf81
 
-# Getting Started
+## Overview / Genel Bakış
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+**English:**  
+Developed with React Native and various technologies, “Umrumda mı?” is a mobile application where people can share their problems and get feedback. The app features user authentication and a chat area where users can share messages. It is designed to be simple and intuitive, providing a smooth user experience.  
 
-## Step 1: Start the Metro Server
+**Türkçe:**  
+React Native ve çeşitli teknolojilerle geliştirilen "Umrumda mı?" adlı insanların dertlerini paylaşıp dönüt alacağı bir mobil uygulama. Uygulama, kullanıcı kimlik doğrulaması  ve kullanıcıların mesaj paylaşabileceği bir sohbet alanı gibi özelliklere sahiptir. Basit ve kullanıcı dostu bir deneyim sunmak üzere tasarlanmıştır.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Features / Özellikler
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- **User Authentication / Kullanıcı Kimlik Doğrulama**: Users can sign up and log in using email and password.
+  - Kullanıcılar e-posta ve şifre ile kayıt olabilir ve giriş yapabilirler.
+- **Social Media Login / Sosyal Medya ile Giriş**: Google and Facebook login options are integrated.
+  - Google ve Facebook ile giriş seçenekleri entegre edilmiştir.
+- **Message Sharing / Mesaj Paylaşımı**: Users can share and view messages in a community chat area.
+  - Kullanıcılar topluluk sohbet alanında mesaj paylaşabilir ve görüntüleyebilirler.
+- **User Profile / Kullanıcı Profili**: Profile management features including updating user information.
+  - Kullanıcı bilgilerini güncellemeyi içeren profil yönetim özellikleri.
 
-```bash
-# using npm
-npm start
+## Technologies Used / Kullanılan Teknolojiler
 
-# OR using Yarn
-yarn start
-```
+- **React Native**: Cross-platform mobile app development framework.
+  - Çapraz platform mobil uygulama geliştirme framework'ü.
+- **Firebase Authentication**: User authentication and social login features.
+  - Kullanıcı kimlik doğrulama ve sosyal giriş özellikleri.
+- **Firebase Realtime Database**: Storing and retrieving user messages in real-time.
+  - Kullanıcı mesajlarını gerçek zamanlı olarak depolama ve alma.
+- **React Navigation**: Navigation between different screens and tabs within the app.
+  - Uygulama içindeki farklı ekranlar ve sekmeler arasında gezinme.
+- **Formik & Yup**: Form management and validation for handling user input.
+  - Kullanıcı girişi için form yönetimi ve doğrulama.
 
-## Step 2: Start your Application
+## Installation / Kurulum
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+**English:**  
+1. Clone the repository: `git clone https://github.com/oguzhanyavass/Umrumda_mi_App.git`
+2. Navigate to the project directory: `cd oguzhanyavass`
+3. Install the dependencies: `npm install`
+4. Run the application: `npm start` or `npx react-native run-android` for Android or `npx react-native run-ios` for iOS.
 
-### For Android
+**Türkçe:**  
+1. Depoyu klonlayın: `git clone https://github.com/oguzhanyavass/Umrumda_mi_App.git`
+2. Proje dizinine gidin: `cd oguzhanyavass`
+3. Bağımlılıkları yükleyin: `npm install`
+4. Uygulamayı çalıştırın: `npm start` veya Android için `npx react-native run-android`, iOS için `npx react-native run-ios`.
 
-```bash
-# using npm
-npm run android
+## Screenshots / Ekran Görüntüleri
 
-# OR using Yarn
-yarn android
-```
+<div style="display: flex; flex-wrap: wrap; gap: 25px;">
+  <img src="./img/login.png" alt="Login Screen" width="200"/>
+  <img src="./img/signup.png" alt="SignUp Screen" width="200"/>
+  <img src="./img/flashnot.png" alt="Flash Not" width="200"/>
+  <img src="./img/main.png" alt="Main Screen" width="200"/>
+  <img src="./img/modal.png" alt="Content Modal" width="200"/>
+  <img src="./img/profile.png" alt="Profile Screen" width="200"/>
+</div>
 
-### For iOS
+## License / Lisans
 
-```bash
-# using npm
-npm run ios
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.  
+Bu proje MIT Lisansı ile lisanslanmıştır - ayrıntılar için [LICENSE](LICENSE) dosyasına bakın.
 
-# OR using Yarn
-yarn ios
-```
+## Contact / İletişim
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
->>>>>>> 6c9c727 (İlk commit mesajı)
+- **GitHub**: [yourusername](https://github.com/oguzhanyavass)
+- **Email**: oguzhan.yavas@ogr.sakarya.edu.tr
