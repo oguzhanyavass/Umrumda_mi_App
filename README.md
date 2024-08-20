@@ -1,9 +1,7 @@
 
 # Umrumda_mi_App
 React Native ve çeşitli teknolojilerle geliştirilen "Umrumda mı?" adlı insanların dertlerini paylaşıp dönüt alacağı bir mobil uygulama.  Developed with React Native and various technologies, “Umrumda mı?” is a mobile application where people can share their problems and get feedback.
-=======
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
->>>>>>> b5df7c9b8b66ca9fda77c76832296c7c016adf81
+
 
 ## Overview / Genel Bakış
 
