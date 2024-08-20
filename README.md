@@ -60,12 +60,8 @@ React Native ve çeşitli teknolojilerle geliştirilen "Umrumda mı?" adlı insa
   <img src="./img/profile.png" alt="Profile Screen" width="200"/>
 </div>
 
-## License / Lisans
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.  
-Bu proje MIT Lisansı ile lisanslanmıştır - ayrıntılar için [LICENSE](LICENSE) dosyasına bakın.
 
 ## Contact / İletişim
 
-- **GitHub**: [yourusername](https://github.com/oguzhanyavass)
+- **GitHub**: [oguzhanyavass](https://github.com/oguzhanyavass)
 - **Email**: oguzhan.yavas@ogr.sakarya.edu.tr
