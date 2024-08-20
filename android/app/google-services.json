@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "31389676998",
+    "project_id": "umrumdami-a636f",
+    "storage_bucket": "umrumdami-a636f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31389676998:android:4865260e14479a1953eec7",
+        "android_client_info": {
+          "package_name": "com.umrumdami"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq-at4Re9jjSOD58wIpbdZczpnJqGmMRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
